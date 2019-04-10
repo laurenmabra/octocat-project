@@ -1,12 +1,89 @@
-:root {
-  font: 16px / 1 sans-serif;
-}
-
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+	font: 13px helvetica, arial, sans-serif;
+	line-height: 1.4em;
+	background-color: #fff;
+	color: #333333;
+	margin: 0px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	height: 10%;
+	width: 100%;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	color: #4183c4;
+	outline: 0;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.gallery {
+	height: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	font: helvetica;
+	color: black;
+	font-weight: bold;
+}
+
+p {
+	font: serif;
+	font-size: 13;
+	text-align: right;
+	width: 20;
+	border-bottom: solid #cacaca;
+}
+
+.filmtocat {
+	border-radius: 1px;
+	border: solid;
+	color: #cacaca;
+	height: 450px;
+}
+
+.grey {
+	color: #666;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.user {
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.user-photo {
+	width: 5px
+	font-weight: bold;
 }
